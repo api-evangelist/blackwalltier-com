@@ -64,5 +64,141 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-blackwalltier-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://blackwalltier.com/
+Black_Wall provides a pre‑action outcome API for AI agents, reasoning about each AI‑agent action and catching risks that policy rules may miss, such as prompt injection, anomalies, and inadvertent exposure of personally identifiable information. The service offers a free tier and aims to gate actions with decisions like GO, CAUTION, or STOP before they run, helping organizations prevent damage from unexpected AI behavior.
+
+**Areas:** Company · AI · Security · Policy · RiskManagement
+
+## blackwalltier-com on APIs.io
+
+Everything profiled for blackwalltier-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/blackwalltier-com/](https://apis.io/providers/blackwalltier-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [blackwalltier-com Forecast API](https://apis.io/apis/blackwalltier-com/blackwalltier-com-forecast-api/) — The Forecast API from blackwalltier-com — 2 operation(s) for forecast.
+- [blackwalltier-com Keys API](https://apis.io/apis/blackwalltier-com/blackwalltier-com-keys-api/) — The Keys API from blackwalltier-com — 1 operation(s) for keys.
+- [blackwalltier-com Receipts API](https://apis.io/apis/blackwalltier-com/blackwalltier-com-receipts-api/) — The Receipts API from blackwalltier-com — 2 operation(s) for receipts.
+- [blackwalltier-com Usage API](https://apis.io/apis/blackwalltier-com/blackwalltier-com-usage-api/) — The Usage API from blackwalltier-com — 1 operation(s) for usage.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Blackwalltier Com Agentic Access](https://apis.io/agentic-access/blackwalltier-com/blackwalltier-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ApiKey](https://apis.io/schemas/blackwalltier-com/blackwalltier-com-api-key/)
+- [ForecastRequest](https://apis.io/schemas/blackwalltier-com/blackwalltier-com-forecast-request/)
+- [ForecastResponse](https://apis.io/schemas/blackwalltier-com/blackwalltier-com-forecast-response/)
+- [OutcomeReport](https://apis.io/schemas/blackwalltier-com/blackwalltier-com-outcome-report/)
+- [Receipt](https://apis.io/schemas/blackwalltier-com/blackwalltier-com-receipt/)
+- [UsageSummary](https://apis.io/schemas/blackwalltier-com/blackwalltier-com-usage-summary/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Blackwalltier Com Context](https://apis.io/jsonld/blackwalltier-com/blackwalltier-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [blackwalltier-com API Rules](https://apis.io/rules/blackwalltier-com/blackwalltier-com-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Blackwalltier Com Authentication](https://apis.io/security/blackwalltier-com/blackwalltier-com-authentication/)
+- [Blackwalltier Com Domain Security](https://apis.io/security/blackwalltier-com/blackwalltier-com-domain-security/)
+- [Blackwalltier Com Trust Center](https://apis.io/security/blackwalltier-com/blackwalltier-com-trust-center/)
+- [Blackwalltier Com Vulnerability Disclosure](https://apis.io/security/blackwalltier-com/blackwalltier-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Blackwalltier Com Scopes](https://apis.io/scopes/blackwalltier-com/blackwalltier-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Blackwalltier Com Plans Pricing](https://apis.io/plans/blackwalltier-com/blackwalltier-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Blackwalltier Com Rate Limits](https://apis.io/rate-limits/blackwalltier-com/blackwalltier-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://blackwalltier.com/)
+- [API reference](https://blackwalltier.com/llms.txt)
+- [Security](https://blackwalltier.com/security)
+- [Compliance](https://blackwalltier.com/security)
+
+## API Evangelist rating
+
+**Kin Score 44.4** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 57.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 32.6 |
+| Access clarity | 15.8 |
+
+**Agent readiness 44.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/blackwalltier-com/](https://apis.io/providers/blackwalltier-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for blackwalltier-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/blackwalltier-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
